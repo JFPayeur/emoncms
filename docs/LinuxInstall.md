@@ -31,6 +31,10 @@ Emoncms uses a front controller to route requests, modrewrite needs to be config
 For `<Directory />` and `<Directory /var/www/>` change `AllowOverride None` to `AllowOverride All`. This may be on lines 7 and 11 of `/etc/apache2/sites-available/000-default`. Modern versions of Ubuntu store these in the main config file: `/etc/apache2/apache2.conf`.
     
     $ sudo nano /etc/apache2/sites-available/000-default
+
+or
+
+    $ sudo nano /etc/apache2/sites-available/default
     
 or
 
